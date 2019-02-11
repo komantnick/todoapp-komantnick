@@ -15,6 +15,12 @@ use Illuminate\Http\Request;
 
 
 // routes
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
 // Route::get('/', function () {
 //     $tasks= \App\Tasks::OrderBy('created_at','asc')->get();
 //     return view('tasks',[
